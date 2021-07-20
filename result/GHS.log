@@ -1,0 +1,277 @@
+2021-07-12 23:04:48) GHS was run!
+
+0.000) node B received from node A: type=Connect
+0.011) node A received from node B: type=Connect
+0.073) node B received from node C: type=Connect
+0.211) node A received from node B: type=Initiate level=1 fragment=(1.0, 'A', 'B') state=Find
+0.227) node C received from node D: type=Connect
+0.242) node B received from node A: type=Initiate level=1 fragment=(1.0, 'A', 'B') state=Find
+0.289) node B received from node E: type=Connect
+0.335) node A received from node F: type=Connect
+0.427) node F received from node A: type=Test level=1 fragment=(1.0, 'A', 'B')
+0.488) node I received from node G: type=Connect
+0.488) node E received from node B: type=Test level=1 fragment=(1.0, 'A', 'B')
+0.596) node G received from node I: type=Connect
+0.596) node F received from node A: type=Initiate level=1 fragment=(1.0, 'A', 'B') state=Find
+0.689) node G received from node H: type=Connect
+0.797) node E received from node F: type=Test level=1 fragment=(1.0, 'A', 'B')
+0.861) node G received from node I: type=Initiate level=1 fragment=(3.0, 'G', 'I') state=Find
+0.891) node M received from node J: type=Connect
+0.891) node C received from node B: type=Initiate level=1 fragment=(1.0, 'A', 'B') state=Find
+1.076) node I received from node G: type=Initiate level=1 fragment=(3.0, 'G', 'I') state=Find
+1.153) node A received from node F: type=Reject
+1.276) node H received from node I: type=Test level=1 fragment=(3.0, 'G', 'I')
+1.307) node D received from node C: type=Test level=1 fragment=(1.0, 'A', 'B')
+1.414) node J received from node K: type=Connect
+1.445) node G received from node A: type=Test level=1 fragment=(1.0, 'A', 'B')
+1.537) node H received from node G: type=Test level=1 fragment=(3.0, 'G', 'I')
+1.537) node E received from node B: type=Initiate level=1 fragment=(1.0, 'A', 'B') state=Find
+1.660) node F received from node E: type=Test level=1 fragment=(1.0, 'A', 'B')
+1.721) node M received from node L: type=Connect
+1.782) node J received from node M: type=Connect
+1.813) node D received from node C: type=Initiate level=1 fragment=(1.0, 'A', 'B') state=Find
+1.921) node A received from node F: type=Report fragment=(inf, inf, inf)
+1.951) node Q received from node N: type=Connect
+2.028) node E received from node D: type=Test level=1 fragment=(1.0, 'A', 'B')
+2.089) node P received from node O: type=Connect
+2.150) node M received from node J: type=Initiate level=1 fragment=(2.0, 'J', 'M') state=Find
+2.181) node O received from node P: type=Connect
+2.395) node H received from node G: type=Initiate level=1 fragment=(3.0, 'G', 'I') state=Find
+2.504) node I received from node H: type=Test level=1 fragment=(3.0, 'G', 'I')
+2.504) node P received from node U: type=Connect
+2.504) node B received from node E: type=Reject
+2.579) node T received from node V: type=Connect
+2.640) node J received from node M: type=Initiate level=1 fragment=(2.0, 'J', 'M') state=Find
+2.748) node J received from node I: type=Test level=1 fragment=(3.0, 'G', 'I')
+2.856) node R received from node S: type=Connect
+2.964) node S received from node R: type=Connect
+3.102) node N received from node Q: type=Connect
+5.085) node N received from node Q: type=Initiate level=1 fragment=(33.0, 'N', 'Q') state=Find
+5.085) node P received from node Q: type=Test level=1 fragment=(33.0, 'N', 'Q')
+3.596) node V received from node T: type=Connect
+3.705) node P received from node O: type=Initiate level=1 fragment=(34.0, 'O', 'P') state=Find
+3.813) node K received from node J: type=Test level=1 fragment=(2.0, 'J', 'M')
+3.983) node O received from node P: type=Initiate level=1 fragment=(34.0, 'O', 'P') state=Find
+4.075) node A received from node G: type=Accept
+4.167) node G received from node H: type=Reject
+4.297) node B received from node A: type=Report fragment=(20.0, 'A', 'G')
+4.512) node D received from node E: type=Test level=1 fragment=(1.0, 'A', 'B')
+4.543) node T received from node V: type=Initiate level=1 fragment=(37.0, 'T', 'V') state=Find
+4.574) node L received from node M: type=Test level=1 fragment=(2.0, 'J', 'M')
+5.022) node R received from node S: type=Initiate level=1 fragment=(35.0, 'R', 'S') state=Find
+5.053) node S received from node R: type=Initiate level=1 fragment=(35.0, 'R', 'S') state=Find
+3.318) node C received from node D: type=Reject
+3.318) node Q received from node N: type=Initiate level=1 fragment=(33.0, 'N', 'Q') state=Find
+5.100) node V received from node T: type=Initiate level=1 fragment=(37.0, 'T', 'V') state=Find
+5.179) node N received from node O: type=Test level=1 fragment=(34.0, 'O', 'P')
+5.427) node I received from node J: type=Accept
+5.552) node T received from node P: type=Test level=1 fragment=(34.0, 'O', 'P')
+5.723) node A received from node G: type=Test level=1 fragment=(3.0, 'G', 'I')
+5.770) node G received from node H: type=Report fragment=(inf, inf, inf)
+5.770) node G received from node I: type=Report fragment=(57.0, 'I', 'J')
+6.005) node G received from node A: type=Accept
+6.176) node B received from node E: type=Report fragment=(inf, inf, inf)
+6.986) node S received from node V: type=Test level=1 fragment=(37.0, 'T', 'V')
+7.406) node V received from node S: type=Test level=1 fragment=(35.0, 'R', 'S')
+7.469) node L received from node M: type=Initiate level=1 fragment=(2.0, 'J', 'M') state=Find
+7.591) node K received from node L: type=Test level=1 fragment=(2.0, 'J', 'M')
+7.621) node N received from node R: type=Test level=1 fragment=(35.0, 'R', 'S')
+7.701) node C received from node D: type=Report fragment=(inf, inf, inf)
+7.732) node O received from node N: type=Test level=1 fragment=(33.0, 'N', 'Q')
+7.887) node P received from node T: type=Test level=1 fragment=(37.0, 'T', 'V')
+7.933) node N received from node O: type=Accept
+8.074) node B received from node C: type=Report fragment=(inf, inf, inf)
+8.105) node K received from node J: type=Initiate level=1 fragment=(2.0, 'J', 'M') state=Find
+8.136) node Q received from node P: type=Accept
+8.275) node I received from node G: type=Report fragment=(20.0, 'A', 'G')
+8.322) node L received from node K: type=Test level=1 fragment=(2.0, 'J', 'M')
+8.369) node A received from node B: type=Report fragment=(inf, inf, inf)
+8.603) node N received from node Q: type=Report fragment=(43.0, 'P', 'Q')
+8.603) node S received from node V: type=Accept
+8.603) node G received from node A: type=Connect level=1
+8.712) node V received from node S: type=Accept
+8.962) node M received from node L: type=Reject
+9.211) node O received from node N: type=Accept
+9.319) node N received from node M: type=Test level=1 fragment=(2.0, 'J', 'M')
+9.396) node P received from node T: type=Accept
+9.552) node P received from node O: type=Report fragment=(36.0, 'N', 'O')
+10.331) node U received from node P: type=Initiate level=1 fragment=(34.0, 'O', 'P') state=Find
+10.470) node A received from node G: type=Connect level=1
+10.532) node T received from node U: type=Test level=1 fragment=(34.0, 'O', 'P')
+10.844) node J received from node K: type=Report fragment=(inf, inf, inf)
+11.437) node T received from node V: type=Report fragment=(41.0, 'S', 'V')
+11.780) node G received from node A: type=Initiate level=2 fragment=(20.0, 'A', 'G') state=Find
+11.967) node R received from node S: type=Report fragment=(41.0, 'S', 'V')
+12.529) node M received from node L: type=Report fragment=(inf, inf, inf)
+12.888) node R received from node N: type=Accept
+13.074) node U received from node T: type=Accept
+13.168) node S received from node R: type=Report fragment=(47.0, 'N', 'R')
+13.200) node T received from node P: type=Accept
+13.339) node A received from node G: type=Initiate level=2 fragment=(20.0, 'A', 'G') state=Find
+14.069) node P received from node U: type=Report fragment=(44.0, 'T', 'U')
+14.132) node J received from node K: type=Reject
+14.595) node I received from node J: type=Test level=1 fragment=(2.0, 'J', 'M')
+14.843) node J received from node I: type=Accept
+15.233) node B received from node A: type=Initiate level=2 fragment=(20.0, 'A', 'G') state=Find
+15.327) node V received from node S: type=Connect level=1
+15.453) node C received from node B: type=Initiate level=2 fragment=(20.0, 'A', 'G') state=Find
+15.687) node D received from node C: type=Initiate level=2 fragment=(20.0, 'A', 'G') state=Find
+15.969) node C received from node D: type=Report fragment=(inf, inf, inf)
+15.969) node Q received from node N: type=Report fragment=(36.0, 'N', 'O')
+16.170) node O received from node P: type=Report fragment=(38.0, 'P', 'T')
+16.372) node V received from node T: type=Report fragment=(38.0, 'P', 'T')
+16.435) node N received from node O: type=Connect level=1
+16.497) node I received from node G: type=Initiate level=2 fragment=(20.0, 'A', 'G') state=Find
+16.872) node M received from node J: type=Report fragment=(57.0, 'I', 'J')
+16.935) node J received from node I: type=Test level=2 fragment=(20.0, 'A', 'G')
+17.089) node F received from node A: type=Initiate level=2 fragment=(20.0, 'A', 'G') state=Find
+17.322) node A received from node F: type=Report fragment=(inf, inf, inf)
+17.600) node E received from node B: type=Initiate level=2 fragment=(20.0, 'A', 'G') state=Find
+17.831) node B received from node E: type=Report fragment=(inf, inf, inf)
+18.016) node B received from node C: type=Report fragment=(inf, inf, inf)
+18.485) node O received from node N: type=Connect level=1
+19.389) node P received from node T: type=Connect level=1
+19.812) node N received from node O: type=Initiate level=2 fragment=(36.0, 'N', 'O') state=Find
+19.874) node H received from node G: type=Initiate level=2 fragment=(20.0, 'A', 'G') state=Find
+20.249) node G received from node H: type=Report fragment=(inf, inf, inf)
+21.344) node A received from node B: type=Report fragment=(inf, inf, inf)
+21.762) node M received from node N: type=Accept
+21.995) node J received from node M: type=Report fragment=(54.0, 'M', 'N')
+21.995) node G received from node A: type=Report fragment=(inf, inf, inf)
+23.765) node O received from node N: type=Initiate level=2 fragment=(36.0, 'N', 'O') state=Find
+23.859) node N received from node M: type=Connect level=1
+24.155) node P received from node O: type=Initiate level=2 fragment=(36.0, 'N', 'O') state=Find
+24.591) node Q received from node N: type=Initiate level=2 fragment=(36.0, 'N', 'O') state=Find
+24.903) node P received from node Q: type=Test level=2 fragment=(36.0, 'N', 'O')
+24.995) node U received from node P: type=Initiate level=2 fragment=(36.0, 'N', 'O') state=Find
+25.151) node Q received from node O: type=Test level=2 fragment=(36.0, 'N', 'O')
+25.353) node R received from node N: type=Test level=2 fragment=(36.0, 'N', 'O')
+25.416) node T received from node U: type=Test level=2 fragment=(36.0, 'N', 'O')
+25.759) node O received from node Q: type=Reject
+26.085) node T received from node P: type=Test level=2 fragment=(36.0, 'N', 'O')
+26.164) node M received from node N: type=Initiate level=2 fragment=(36.0, 'N', 'O') state=Find
+26.897) node L received from node M: type=Initiate level=2 fragment=(36.0, 'N', 'O') state=Find
+27.392) node M received from node L: type=Report fragment=(inf, inf, inf)
+28.041) node T received from node P: type=Initiate level=2 fragment=(36.0, 'N', 'O') state=Find
+28.738) node J received from node M: type=Initiate level=2 fragment=(36.0, 'N', 'O') state=Find
+28.800) node V received from node T: type=Initiate level=2 fragment=(36.0, 'N', 'O') state=Find
+29.001) node K received from node J: type=Initiate level=2 fragment=(36.0, 'N', 'O') state=Find
+29.062) node S received from node V: type=Test level=2 fragment=(36.0, 'N', 'O')
+29.369) node J received from node K: type=Report fragment=(inf, inf, inf)
+29.662) node Q received from node P: type=Reject
+29.970) node S received from node Q: type=Test level=2 fragment=(36.0, 'N', 'O')
+31.756) node U received from node T: type=Test level=2 fragment=(36.0, 'N', 'O')
+32.459) node I received from node J: type=Test level=2 fragment=(36.0, 'N', 'O')
+32.491) node V received from node U: type=Test level=2 fragment=(36.0, 'N', 'O')
+32.932) node S received from node V: type=Initiate level=2 fragment=(36.0, 'N', 'O') state=Find
+33.009) node J received from node I: type=Accept
+33.204) node R received from node S: type=Initiate level=2 fragment=(36.0, 'N', 'O') state=Find
+33.619) node N received from node R: type=Test level=2 fragment=(36.0, 'N', 'O')
+33.849) node Q received from node T: type=Test level=2 fragment=(36.0, 'N', 'O')
+33.957) node I received from node J: type=Accept
+34.079) node T received from node Q: type=Reject
+34.747) node U received from node V: type=Reject
+35.270) node G received from node I: type=Report fragment=(57.0, 'I', 'J')
+35.784) node A received from node G: type=Report fragment=(57.0, 'I', 'J')
+35.939) node P received from node U: type=Report fragment=(inf, inf, inf)
+35.970) node Q received from node S: type=Test level=2 fragment=(36.0, 'N', 'O')
+36.001) node Q received from node R: type=Test level=2 fragment=(36.0, 'N', 'O')
+36.204) node P received from node T: type=Reject
+36.404) node M received from node J: type=Report fragment=(57.0, 'I', 'J')
+36.760) node R received from node Q: type=Test level=2 fragment=(36.0, 'N', 'O')
+36.975) node N received from node M: type=Report fragment=(57.0, 'I', 'J')
+37.919) node I received from node G: type=ChangeCore
+38.212) node J received from node I: type=Connect level=2
+39.619) node V received from node S: type=Reject
+40.327) node S received from node R: type=Report fragment=(inf, inf, inf)
+40.543) node S received from node T: type=Test level=2 fragment=(36.0, 'N', 'O')
+40.727) node N received from node Q: type=Report fragment=(inf, inf, inf)
+40.942) node O received from node N: type=Report fragment=(57.0, 'I', 'J')
+42.479) node T received from node S: type=Test level=2 fragment=(36.0, 'N', 'O')
+43.756) node V received from node S: type=Report fragment=(inf, inf, inf)
+44.215) node T received from node V: type=Report fragment=(inf, inf, inf)
+44.476) node P received from node T: type=Report fragment=(inf, inf, inf)
+44.722) node O received from node P: type=Report fragment=(inf, inf, inf)
+45.214) node N received from node O: type=Report fragment=(inf, inf, inf)
+45.892) node M received from node N: type=ChangeCore
+46.292) node J received from node M: type=ChangeCore
+46.493) node I received from node J: type=Connect level=2
+46.706) node J received from node I: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+47.827) node I received from node J: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+48.611) node G received from node I: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+49.047) node A received from node G: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+49.078) node K received from node J: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+49.247) node B received from node A: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+49.313) node J received from node K: type=Report fragment=(inf, inf, inf)
+49.344) node H received from node G: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+49.484) node M received from node J: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+49.718) node G received from node H: type=Report fragment=(inf, inf, inf)
+49.765) node L received from node M: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+49.873) node C received from node B: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+49.966) node M received from node L: type=Report fragment=(inf, inf, inf)
+50.027) node F received from node A: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+50.273) node D received from node C: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+50.520) node C received from node D: type=Report fragment=(inf, inf, inf)
+50.935) node A received from node F: type=Report fragment=(inf, inf, inf)
+51.597) node N received from node M: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+51.812) node O received from node N: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+51.812) node E received from node B: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+52.012) node B received from node E: type=Report fragment=(inf, inf, inf)
+52.348) node P received from node O: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+52.624) node U received from node P: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+53.084) node P received from node U: type=Report fragment=(inf, inf, inf)
+53.623) node B received from node C: type=Report fragment=(inf, inf, inf)
+54.955) node Q received from node N: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+55.158) node A received from node B: type=Report fragment=(inf, inf, inf)
+55.298) node N received from node Q: type=Report fragment=(inf, inf, inf)
+55.359) node G received from node A: type=Report fragment=(inf, inf, inf)
+56.132) node I received from node G: type=Report fragment=(inf, inf, inf)
+56.319) node T received from node P: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+56.660) node V received from node T: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+56.753) node J received from node I: type=Report fragment=(inf, inf, inf)
+57.227) node S received from node V: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+57.505) node R received from node S: type=Initiate level=3 fragment=(57.0, 'I', 'J') state=Find
+58.036) node S received from node R: type=Report fragment=(inf, inf, inf)
+61.739) node V received from node S: type=Report fragment=(inf, inf, inf)
+62.788) node T received from node V: type=Report fragment=(inf, inf, inf)
+63.187) node P received from node T: type=Report fragment=(inf, inf, inf)
+63.770) node O received from node P: type=Report fragment=(inf, inf, inf)
+63.985) node N received from node O: type=Report fragment=(inf, inf, inf)
+64.370) node M received from node N: type=Report fragment=(inf, inf, inf)
+64.886) node J received from node M: type=Report fragment=(inf, inf, inf)
+65.238) node I received from node J: type=Report fragment=(inf, inf, inf)
+
+number of nodes = 22
+number of edges = 34
+number of levels = 3
+total time of execution = 65.38
+average time of execution per level = 21.79
+total number of messages = 240
+average number of messages per node = 10.91
+average number of messages per level = 80.00
+total number of bits = 16568
+average number of bits per node = 753.09
+average number of bits per message = 69.03
+
+branches:
+	(A,B)
+	(A,F)
+	(A,G)
+	(B,C)
+	(B,E)
+	(C,D)
+	(G,H)
+	(G,I)
+	(I,J)
+	(J,K)
+	(J,M)
+	(L,M)
+	(M,N)
+	(N,O)
+	(N,Q)
+	(O,P)
+	(P,T)
+	(P,U)
+	(R,S)
+	(S,V)
+	(T,V)
